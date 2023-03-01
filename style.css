@@ -219,6 +219,156 @@ a {
   color: #000000;
 }
 
+.main-profile {
+  background-color: #ECEFF1;
+}
+
+.profilegroup {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-name {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.profile-name::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.profile-text {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.profile-group {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.image-box {
+  width: 50%;
+}
+
+.profile-image {
+  background-image: url(img/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.profile {
+  width: 50%;
+}
+
+.profilename {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.profiletext {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.skill-name {
+  font-size: 16px;
+  color: #000000;
+}
+
+.main-contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-name {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.contact-name::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.contact-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.left-contact {
+  width: 50%;
+}
+
+.left-group {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.left-name {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.left-text {
+  padding-bottom: 20px;
+}
+
+.right-contact {
+  width: 50%;
+}
+
+.right-group {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.right-name {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.fa-facebook {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-instagram {
+  font-size: 50px;
+}
+
 footer {
   height: 60px;
   line-height: 60px;
